@@ -1,12 +1,14 @@
 # Lab setup
 
+* This lab prepares the setup and introduces the lab environment.
+
 * For the virtual machine to run the lab, you will be given an IP and the password. 
 
-![](images/image_01.png)
+![](../images/image_01.png)
 
 * You will click on VNC access and enter the password. You will then have access to an Ubuntu VM.
 
-![](images/image_02.png)
+![](../images/image_02.png)
 
 ### Background information
 
@@ -23,7 +25,7 @@
 
    `docker run -p 8080:8080 -p 9090:9090 -p 81:8888 -e TZ=Europe/Amsterdam webgoat/goatandwolf:latest`
 
-![](images/image_03.png)
+![](../images/image_03.png)
 
 ### Open labs in the browser
 
@@ -36,5 +38,5 @@
 
 ## Instructor:
 
-* Every student gets this
+* Every student gets this VM
 * ubuntu-clean-desktop-v1
