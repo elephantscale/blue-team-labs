@@ -16,25 +16,23 @@
 
 ## Instructions on running the labs
 
-### Start the Docker
+### Start the labs in Docker
 
-1. SSH into the VM you are given
-2. Enter the following
+1. Open a terminal window
+2. Using the clipboard, enter the following
 
    `docker run -p 8080:8080 -p 9090:9090 -p 81:8888 -e TZ=Europe/Amsterdam webgoat/goatandwolf:latest`
 
-### Start the goat labs
+![](images/image_03.png)
 
-1. Enter the IP of the VM given to you into the browser
+### Open labs in the browser
 
-![](../images/goat_01.png)
+3. Open the browser in your VM, point to `localhost:8080/WebGoat`
 
-2. Click on SECURE ACCESS VIA HTTPS
-3. Enter the password provided to you. You will see the sandbox.
-5. Open the browser and enter `localhost:8080/WebGoat`
-6. You are ready to go
+4. Register as a new user.
    
-* FYI Goal Labs solutions: https://github.com/WebGoat/WebGoat/wiki/(Almost)-Fully-Documented-Solution-(en)
+* FYI Goal Labs solutions
+* https://github.com/WebGoat/WebGoat/wiki/(Almost)-Fully-Documented-Solution-(en)
 
 ## Instructor:
 
